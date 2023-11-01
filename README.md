@@ -11,6 +11,10 @@ go get github.com/nu12/go-logging
 ## Usage
 
 ```go
+package main
+
+import "github.com/nu12/go-logging"
+
 func main(){
     var log = logging.NewLogger()
 
